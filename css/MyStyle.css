@@ -5,17 +5,29 @@
 */
 
 /*---------------------------------
-        IMPORTS
+        aqui s eimportan las fuentes 
 -----------------------------------*/
 @import url(https://fonts.googleapis.com/css?family=Arimo:400,700);
 
 /*---------------------------------
-        OVERRIDES
+        titulo y sub titulos
 -----------------------------------*/
-h1,h2,h3,h4,h5,h6{
+
+
+h1{
+    font-family: "Arimo", arial, verdana, sans-serif;
+    color: black;
+    margin-left: 10px;
+    font-size: 20px;
+    text-align: center; 
+}
+h2,h3,h4,h5,h6{
     font-family: "Arimo", arial, verdana, sans-serif;
     font-weight:normal;
 }
+
+
+
 
 thead th,
 tbody th{
@@ -39,7 +51,7 @@ blockquote{
 }
 
 /*---------------------------------
-        LAYOUT
+        apartado de diseño
 -----------------------------------*/
 body{
     margin:0;
@@ -57,8 +69,23 @@ body{
     padding:0 2%;
     border:1px solid #ccc;
 }
+/*---------------------------------
+        este es el contendor del pie
+-----------------------------------*/
+.pie {
 
+    height: 40px;
+    background-color: #FFF;
+    color: #000;
+    text-align: center;
+    clear: both;
+    border-color:#00ff00;
 
+}
+/*---------------------------------
+        este es el contendor del pie por codigo
+-----------------------------------*/
+/*---------------------------------
 #footer{
     text-align:center;
     padding:20px;
@@ -72,6 +99,7 @@ body{
     left:0;
     background:#fff;
 }
+-----------------------------------*/
 
 #link-top{
     display:none;
